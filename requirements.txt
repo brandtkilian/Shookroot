@@ -1,0 +1,5 @@
+pydub==0.9.0
+PyGuitarPro==0.4
+lutorpy==1.3.7
+ntpath==1534770254.427198
+scikit_learn==0.19.2
