@@ -2,7 +2,7 @@
 
 Project for fun which goal is to process data to generate music with the popular [Karpathy's char-rnn](https://github.com/karpathy/char-rnn).
 
-## requirements
+## Requirements
 
 * pydub==0.9.0
 * PyGuitarPro==0.4
@@ -23,7 +23,7 @@ To turn the given vectors into a song I've build a module to concatenate string 
 See the audio/audio_builder.py to create .wav files from numpy array of guitar chords vectors.
 
 
-## example
+## Example
 
 * run processing/gp_files_to_vectors.py to convert the Guitar Pro files into sequences of vector stored in a numpy array
 * run dataset_loader (take a look on the different methods) to load the sequences, concatenate them and store them in a single file (dataset)
@@ -34,7 +34,7 @@ See the audio/audio_builder.py to create .wav files from numpy array of guitar c
 * listen and profit
 
 
-## results
+## Results
 
 Here are some minutes of my generated music: [generated_metalcore.wav](https://github.com/brandtkilian/Shookroot/blob/master/results/generated_metalcore.wav)
 
