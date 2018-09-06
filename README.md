@@ -1,6 +1,6 @@
 # Shookroot
 
-Project for fun which goal is to generate music with the popular [Karpathy's char-rnn](https://github.com/karpathy/char-rnn)
+Project for fun which goal is to process data to generate music with the popular [Karpathy's char-rnn](https://github.com/karpathy/char-rnn).
 
 ## requirements
 
@@ -36,7 +36,7 @@ See the audio/audio_builder.py to create .wav files from numpy array of guitar c
 
 ## results
 
-Here are some of the results I've got
+Here are some minutes of my generated music: [generated_metalcore.wav](https://github.com/brandtkilian/Shookroot/blob/master/results/generated_metalcore.wav)
 
 ## How to make it better
 
